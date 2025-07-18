@@ -13,13 +13,13 @@
 body {
     
       margin: 0;
-      padding: clamp(10px, 15vw, 500px);
+      padding: clamp(10px, 10vw, 2500px);
       background-color: #f4f4f4;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
-li{
+/* li{
     list-style: none;
-}
+} */
 
     ul.link-list {
       list-style-type: none;
@@ -39,4 +39,16 @@ li{
 
     ul.link-list a:hover {
       color: #d62828;
+    }
+    .formula {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .term {
+      margin-left: 20px;
+    }
+    .root {
+      text-decoration: overline;
+      padding-left: 4px;
     }
