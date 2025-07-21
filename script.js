@@ -57,3 +57,12 @@ const pages = {
     }
     return false;
   }
+ 
+  document.querySelectorAll('.img-clickable').forEach(img => {
+    img.addEventListener('click', function () {
+      const imgSrc = this.getAttribute('data-bs-image');
+      document.getElementById('modalImage').setAttribute('src', imgSrc);
+    });
+  });
+
+
