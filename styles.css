@@ -11,7 +11,7 @@
     }
 
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Georgia', Verdana, Geneva, Tahoma, sans-serif;
       background: var(--light);
       color: var(--dark);
       padding: clamp(20px, 5vw, 60px);
@@ -60,3 +60,138 @@
 nav a:hover {
       color: var(--primary) !important;
     }
+
+
+
+.gallery-img {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+#modalImage {
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+#scrollTopBtn {
+  z-index: 1050;
+}
+
+    :root {
+      --primary: #0077ff;
+      --light: #f9f9f9;
+      --dark: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    nav a {
+      font-weight: 600;
+      color: #fff !important;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary) !important;
+    }
+
+    .hero {
+      margin-top: 4rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 4rem);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #555;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
+      height: 100%;
+    }
+
+    .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #91b5ec; /* Light blue background on hover */
+}
+
+
+    .card h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    #suggestionList {
+      max-width: 200px;
+      position: absolute;
+      background: white;
+      z-index: 1000;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    /* Make dropdown items visually match top nav links */
+.dropdown-menu .dropdown-item {
+  color: #0d6efd; /* Bootstrap's default primary blue */
+  font-weight: 500;
+  background-color: #333;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #333; /* Light hover background */
+  color: #0a58ca;
+}
+.dropdown-divider {
+  background-color: #333;
+
+}
+.nav-link .dropdown-toggle .dropdown {
+  background-color: #333;
+}

@@ -2,7 +2,8 @@ const pages = {
     "home": "index.html",
     "variable inductor": "var_inductor.html",
     "variable condenser": "var_condenser.html",
-    "thomson wattmeter": "wattmeter.html"
+    "thomson wattmeter": "wattmeter.html",
+    "precision condenser": "precision_condenser.html"
   
   };
 
@@ -38,7 +39,7 @@ const pages = {
     }
   });
 
-  // Hide suggestion box when clicking outside
+  
   document.addEventListener("click", (e) => {
     if (!searchInput.contains(e.target) && !suggestionList.contains(e.target)) {
       suggestionList.style.display = "none";
@@ -66,3 +67,8 @@ const pages = {
   });
 
 
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
