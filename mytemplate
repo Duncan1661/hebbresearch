@@ -75,7 +75,7 @@ Talk about what you see
   </p>
 
   <!-- Carousel 1 -->
-  <div id="autoCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+  <div id="autoCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="image1" class="d-block w-100" alt="Image 1">
@@ -112,7 +112,7 @@ Detailed description (now you can write what you found out about the instrument 
   </p>
 
   <!-- Carousel 2 -->
-  <div id="autoCarousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+  <div id="autoCarousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="image1" class="d-block w-100" alt="Image 1">
@@ -166,7 +166,7 @@ Detailed description (now you can write what you found out about the instrument 
     <h2>Functionality and Applications</h2>
     
     <p>talk about what it does and try to demonstrate it using videos
-<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <video class="d-block w-100" autoplay muted loop playsinline>
@@ -179,7 +179,7 @@ Detailed description (now you can write what you found out about the instrument 
 more explanations
 </p>
        
-<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <video class="d-block w-100" autoplay muted loop playsinline>
