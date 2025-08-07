@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>hebbresearach</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  
+ 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-center">
+        hebbresearch
+      </a>
+        
+
+    <!-- Hamburger menu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="collection.html">Collection</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About</a>
+        </li>
+  
+        
+
+        
+
+   
+   
+   
+  </ul>
+</li>
+      </ul>
+
+
+
+      <!-- Search form -->
+      <form class="d-flex" role="search" onsubmit="return handleSearch(event)">
+  <input class="form-control me-2" type="search" placeholder="Search for antique physics equipment" aria-label="Search" id="searchInput">
+  <button class="btn btn-outline-light" type="submit">Search</button>
+</form>
+
+    </div>
+  </div>
+</nav>
+<br>
+  <h1>Name Type Date</h1>
+  <p>
+Talk about what you see
+
+  </p>
+
+  <!-- Carousel 1 -->
+  <div id="autoCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="image2" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="image3" class="d-block w-100" alt="Image 3">
+      </div>
+      <div class="carousel-item">
+        <img src="image4" class="d-block w-100" alt="Image 4">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#autoCarousel1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#autoCarousel1" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#autoCarousel1" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#autoCarousel1" data-bs-slide-to="3"></button>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#autoCarousel1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#autoCarousel1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <p>
+Detailed description (now you can write what you found out about the instrument online)
+
+  </p>
+
+  <!-- Carousel 2 -->
+  <div id="autoCarousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="image2" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="image3" class="d-block w-100" alt="Image 3">
+      </div>
+      <div class="carousel-item">
+        <img src="image4" class="d-block w-100" alt="Image 4">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#autoCarousel2" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#autoCarousel2" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#autoCarousel2" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#autoCarousel2" data-bs-slide-to="3"></button>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#autoCarousel2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#autoCarousel2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ <h1>Physical Make</h1>
+<p><strong>Materials</strong>
+<ul></ul></p>
+
+   <p><strong>Dimensions</strong><ul></ul></p>
+ 
+
+ <h2>Markings</h2>
+ <p><ul>
+
+ </ul></p>
+ <h2>Measurements</h2>
+ <p></p>
+ <h2>Manufacturer's Mark</h2>
+ <p></p>
+
+
+    
+  
+    <h1>Functionality and Applications</h1>
+    
+    <p>talk about what it does and try to demonstrate it using videos
+<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="d-block w-100" autoplay muted loop playsinline>
+        <source src="video1" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+more explanations
+</p>
+       
+<div id="autoCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="d-block w-100" autoplay muted loop playsinline>
+        <source src="video2" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
+
+
+  <h1>Instrument physics</h1>
+       <p>what physics principles allow this instrument to work</p>
+
+ 
+
+
+<h1>Manufacturer's Information</h1>
+       <span><strong>Company name</strong></span> 
+    <span>talk about the manufacturer including their history </span> <br> <br>
+    
+    
+    <h1>Reflection From The Present</h1>
+       <span>What are the modern ones compared to this old one </span> <br> <br>
+    
+    
+    <h1>References</h1>
+   <ul>
+  <li><a href="#" target="_blank">website link</a></li>
+ 
+</ul>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 
+
+    body {
+  font-family: 'Georgia', Verdana, Geneva, Tahoma, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  padding: clamp(1rem, 5vw, 3rem);
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Responsive text size */
+  line-height: 1.6;
+}
+
+/* Fine-tune for small devices (e.g., phones) */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
+/* Larger tablets and small desktops */
+@media (min-width: 768px) {
+  body {
+    padding: 5rem 6rem;
+    font-size: 1.3rem;
+  }
+}
+
+/* Large desktop monitors */
+@media (min-width: 1200px) {
+  body {
+    padding: 3rem 8rem;
+    font-size: 1.6rem;
+  }
+} -->

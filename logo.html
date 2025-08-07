@@ -1,0 +1,62 @@
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="HebbResearch Logo" class="logo">
+    </a>
+    <!-- Add other nav items here -->
+  </nav>
+</header>
+
+<div id="header-placeholder"></div>
+
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    });
+</script>
+
+
+<div id="header-placeholder"></div>
+
+<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    });
+</script>
+
+
+<link rel="stylesheet" href="style.css">
+<script defer src="header-loader.js"></script> <!-- optional if you separate the JS -->
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+body {
+  padding-top: 70px; /* to avoid content hiding behind the header */
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a; /* example */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}

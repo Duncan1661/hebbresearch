@@ -1,0 +1,268 @@
+/* .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+} */
+.carousel-item img {
+  height: 400px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.carousel-inner video {
+    
+    height: 400px;
+    aspect-ratio: 4 / 2.667; /* Match your image aspect ratio */
+    object-fit: contain;
+    display: block;
+    }
+
+    /* body {
+      font-family: 'Georgia', Verdana, Geneva, Tahoma, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      padding: clamp(2px, 6vw, 1000px);
+      font-size: 1.5rem;
+      
+    } */
+
+    body {
+  font-family: 'Georgia', Verdana, Geneva, Tahoma, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  
+  /* padding-top: clamp(8px, 3vh, 10px);     top padding */
+  padding-bottom: clamp(8px, 3vh, 10px);  /* bottom padding */
+  padding-left: clamp(12px, 6vw, 2000px);  /* left padding */
+  padding-right: clamp(12px, 6vw, 2000px); /* right padding */
+  
+  font-size: 1.5rem;
+}
+
+/* li{
+    list-style: none;
+} */
+
+    ul.link-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul.link-list li {
+      margin-bottom: 10px;
+    }
+
+    ul.link-list a {
+      text-decoration: none;
+      color: #1a0dab;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    ul.link-list a:hover {
+      color: #d62828;
+    }
+    .formula {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .term {
+      margin-left: 20px;
+    }
+    .root {
+      text-decoration: overline;
+      padding-left: 4px;
+    }
+    :root {
+  --primary: #0077ff; /* This is a strong blue */
+}
+
+nav a:hover {
+      color: var(--primary) !important;
+    }
+
+
+
+.gallery-img {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+#modalImage {
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+#scrollTopBtn {
+  z-index: 1050;
+}
+
+    :root {
+      --primary: #0077ff;
+      --light: #f9f9f9;
+      --dark: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    nav a {
+      font-weight: 600;
+      color: #fff !important;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary) !important;
+    }
+
+    .hero {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 4rem);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #555;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
+      height: 100%;
+    }
+
+    .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #91b5ec; /* Light blue background on hover */
+}
+
+
+    .card h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    #suggestionList {
+      max-width: 200px;
+      position: absolute;
+      background: white;
+      z-index: 1000;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    /* Make dropdown items visually match top nav links */
+.dropdown-menu .dropdown-item {
+  color: #0d6efd; /* Bootstrap's default primary blue */
+  font-weight: 500;
+  background-color: #333;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #333; /* Light hover background */
+  color: #0a58ca;
+}
+.dropdown-divider {
+  background-color: #333;
+
+}
+.nav-link .dropdown-toggle .dropdown {
+  background-color: #333;
+}
+
+    .gallery-title {
+      text-align: center;
+      color: #d97a0b;
+      margin-bottom: 1rem;
+    }
+
+    .gallery-text {
+      text-align: center;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-img:hover {
+      transform: scale(1.03);
+    }
+
+    .caption {
+      text-align: center;
+      margin-top: 0.5rem;
+      color: #444;
+      font-weight: 500;
+    }
+
+    .modal-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+ #searchInput {
+    width: 100%;
+    text-align: center;
+    
+  }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(206, 206, 238, 0.8); /* semi-transparent blue */
+  border-radius: 10%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgb(72, 77, 222); /* solid blue on hover */
+}
