@@ -34,7 +34,7 @@
   padding-left: clamp(12px, 6vw, 2000px);  /* left padding */
   padding-right: clamp(12px, 6vw, 2000px); /* right padding */
   
-  font-size: 1.5rem;
+  
 }
 
 /* li{
