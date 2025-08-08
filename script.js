@@ -6,7 +6,10 @@ const pages = {
     "precision condenser": "precision_condenser.html",
     "otto wolff stereo decade resistance box": "otto_small.html",
     "otto wolff KFTW4": "otto_big.html",
-    "weston analyzer": "weston_analyzer.html"
+    "weston analyzer": "weston_analyzer.html",
+    "japanese anemometer showa": "anonemeter.html",
+    "weston wavemeter type 174B": "wavemeter.html"
+
   
   };
 

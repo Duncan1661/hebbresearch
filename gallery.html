@@ -132,23 +132,38 @@
     <!-- Otto-wolff stereo resistance resistor -->
 
          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-      <img src="otto_small/IMG_0958.JPG" class="gallery-img w-100" alt="Precision Condenser"
+      <img src="otto_small/IMG_0958.JPG" class="gallery-img w-100" alt="otto_small"
            data-bs-toggle="modal" data-bs-target="#modalSmallOtto">
       <div class="caption">Otto Wolff Stereo Decade Resistance Box</div>
     </div>
     
   <!-- Otto Wolf KFTW4 -->
        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-      <img src="otto_big/IMG_0947.JPG" class="gallery-img w-100" alt="Precision Condenser"
+      <img src="otto_big/IMG_0947.JPG" class="gallery-img w-100" alt="otto_big"
            data-bs-toggle="modal" data-bs-target="#modalBigOtto">
       <div class="caption">Otto Wolff KFTW4</div>
     </div>
 
     <!-- Weston Analyzer -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-      <img src="weston_analyzer/IMG_0993.JPG" class="gallery-img w-100" alt="Precision Condenser"
+      <img src="weston_analyzer/IMG_0993.JPG" class="gallery-img w-100" alt="weston_analyzer"
            data-bs-toggle="modal" data-bs-target="#modalWeston">
       <div class="caption">Weston Analyzer 772</div>
+    </div>
+
+    <!-- japanese anomemeter -->
+             <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="anonometer/IMG_1055.JPG" class="gallery-img w-100" alt="Japanese Anenometer"
+           data-bs-toggle="modal" data-bs-target="#modalAnometer">
+      <div class="caption">Japanese Anenometer</div>
+    </div>
+
+    <!-- Wavemeter -->
+
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="wavemeter/IMG_1019.JPG" class="gallery-img w-100" alt="Wavemeter"
+           data-bs-toggle="modal" data-bs-target="#modalWavemeter">
+      <div class="caption">Wavemeter 174B</div>
     </div>
 
   </div>
@@ -367,7 +382,7 @@
         <!-- Thumbnail Preview Row -->
         <div class="row g-2">
           <div class="col-3">
-            <img src="otto_small/IMG_0958.JPG" class="img-fluid modal-img-preview active"
+            <img src="otto_big/IMG_0947.JPG" class="img-fluid modal-img-preview active"
                  alt="Top View" onclick="setMainImage(this, 'mainBigOttoImage')">
           </div>
           <div class="col-3">
@@ -427,6 +442,84 @@
   </div>
 </div>
 
+<!-- modal for Japanese Anenometer  -->
+
+<div class="modal fade" id="modalAnometer" tabindex="-1" aria-labelledby="modalAnometerLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="modalAnometerLabel">Japanese Anemometer- Mechanical Cup-Type Wind Speed Meter. WWII-era Japanese military anemometer used for measuring wind speed in aviation and artillery during the early 1940s.
+</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Large Image Display -->
+        <div class="text-center mb-4">
+          <img id="mainAnometerImage" src="anonometer/IMG_1055.JPG" class="img-fluid w-100" alt="Main View">
+        </div>
+
+        <!-- Thumbnail Preview Row -->
+        <div class="row g-2">
+          <div class="col-3">
+            <img src="anonometer/IMG_1055.JPG" class="img-fluid modal-img-preview active"
+                 alt="Top View" onclick="setMainImage(this, 'mainAnometerImage')">
+          </div>
+          <div class="col-3">
+            <img src="anonometer/IMG_1058.JPG" class="img-fluid modal-img-preview"
+                 alt="Side View" onclick="setMainImage(this, 'mainAnometerImage')">
+          </div>
+          <div class="col-3">
+            <img src="anonometer/IMG_1060.JPG" class="img-fluid modal-img-preview"
+                 alt="Wiring" onclick="setMainImage(this, 'mainAnometerImage')">
+          </div>
+          <div class="col-3">
+            <img src="anonometer/IMG_1062.JPG" class="img-fluid modal-img-preview"
+                 alt="Setup" onclick="setMainImage(this, 'mainAnometerImage')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for wavemeter -->
+
+<div class="modal fade" id="modalWavemeter" tabindex="-1" aria-labelledby="modalWavemeterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="modalWavemeterLabel">Wavemeter 174B - A compact, oak-cased absorption wavemeter built in the early 20th century for accurately tuning and measuring radio frequencies between 260 to 1040 meters (approx. 290–1150 kHz).</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Large Image Display -->
+        <div class="text-center mb-4">
+          <img id="mainWavemeterImage" src="wavemeter/IMG_1019.JPG" class="img-fluid w-100" alt="Main View">
+        </div>
+
+        <!-- Thumbnail Preview Row -->
+        <div class="row g-2">
+          <div class="col-3">
+            <img src="wavemeter/IMG_1019.JPG" class="img-fluid modal-img-preview active"
+                 alt="Top View" onclick="setMainImage(this, 'mainWavemeterImage')">
+          </div>
+          <div class="col-3">
+            <img src="wavemeter/IMG_1030.JPG" class="img-fluid modal-img-preview"
+                 alt="Side View" onclick="setMainImage(this, 'mainWavemeterImage')">
+          </div>
+          <div class="col-3">
+            <img src="wavemeter/IMG_1043.JPG" class="img-fluid modal-img-preview"
+                 alt="Wiring" onclick="setMainImage(this, 'mainWavemeterImage')">
+          </div>
+          <div class="col-3">
+            <img src="wavemeter/IMG_1023.JPG" class="img-fluid modal-img-preview"
+                 alt="Setup" onclick="setMainImage(this, 'mainWavemeterImage')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- Bootstrap JS + Custom JS -->
